@@ -12,6 +12,7 @@ bannerBg: F0FFF0
 @theme {
   --font-poppins: "Poppins", sans-serif;
 
+  --color-TxtColor: #000000;
   --color-PrimaryColor: #21b573;
   --color-CardBg: #f8fffb;
   --color-OffWhite: #c4c4c4;
@@ -20,7 +21,7 @@ bannerBg: F0FFF0
 }
 :root {
   font-family: var(--font-poppins);
-  color: var(--color-PrimaryColor);
+  color: var(--color-TxtColor);
   background-color: var(--color-CardBg);
 
   font-synthesis: none;

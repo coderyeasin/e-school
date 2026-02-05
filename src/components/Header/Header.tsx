@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <nav className="flex justify-around items-center">
-        <img src="/src/assets/logo.png" alt="Logo" />
-        <ul>
+      <nav className="flex justify-between items-center">
+        <img src="/Icon/Logo.png" className="w-49.5 h-14.75" alt="Logo" />
+        <ul className="flex items-center gap-7.5 text-base ">
           <li>
             <a href="#books">Books</a>
           </li>
@@ -19,7 +19,12 @@ const Header = () => {
             <a href="#blog">Blog</a>
           </li>
           <li>
-            <a href="#signin">Sign in</a>
+            <a
+              href="#signin"
+              className="py-3 px-7 bg-PrimaryColor text-white rounded-[33px]"
+            >
+              Sign in
+            </a>
           </li>
         </ul>
       </nav>

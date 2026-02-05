@@ -1,11 +1,7 @@
-import React from "react";
+import type { ILayout } from "../../../types/type";
 
-const Container = () => {
-  return (
-    <div>
-      <h3>Container</h3>
-    </div>
-  );
+const Container = ({ children, className }: ILayout) => {
+  return <div className={`w-full  ${className}`}>{children}</div>;
 };
 
 export default Container;
