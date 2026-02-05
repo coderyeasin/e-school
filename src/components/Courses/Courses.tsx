@@ -60,8 +60,8 @@ const Courses = () => {
               {course.btnText}
             </button>
             <div className="flex justify-between items-center gap-4 my-4">
-              <span className="flex items-center gap-1 text-sm text-gray-500">
-                {course.calIcon} Start 20 April, 2021
+              <span className="flex items-center gap-2 text-sm text-gray-500">
+                {course.calIcon} Start 20 April, 2025
               </span>
               <span className="flex items-center gap-1 text-sm text-gray-500">
                 {course.userIcon} 60 seats
