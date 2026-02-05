@@ -1,8 +1,6 @@
-import React from "react";
-
 const Testimonial = () => {
   return (
-    <section className="w-full h-auto ">
+    <section className="w-full h-auto py-10">
       <h2 className="text-[36px] font-bold text-center text-FooterColor py-20">
         Testimonial
       </h2>
