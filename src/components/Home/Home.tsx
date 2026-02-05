@@ -4,6 +4,7 @@ import Container from "../Container/Container";
 import Layout from "../Layout/Layout";
 import Section from "../Layout/Section";
 import Features from "../Features/Features";
+import Courses from "../Courses/Courses";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Container className="h-auto">
         <Section className="max-w-330 h-full mx-auto flex flex-col gap-10">
           <Features />
+          <Courses />
         </Section>
       </Container>
     </Layout>
