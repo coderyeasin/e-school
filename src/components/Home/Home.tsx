@@ -3,6 +3,7 @@ import HeroSection from "../HeroSection/HeroSection";
 import Container from "../Container/Container";
 import Layout from "../Layout/Layout";
 import Section from "../Layout/Section";
+import Features from "../Features/Features";
 
 const Home = () => {
   return (
@@ -11,6 +12,11 @@ const Home = () => {
         <Section className="max-w-330 h-full mx-auto flex flex-col gap-10">
           <Header />
           <HeroSection />
+        </Section>
+      </Container>
+      <Container className="h-auto">
+        <Section className="max-w-330 h-full mx-auto flex flex-col gap-10">
+          <Features />
         </Section>
       </Container>
     </Layout>
