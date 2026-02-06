@@ -1,6 +1,4 @@
-import { FaRegCalendarAlt } from "react-icons/fa";
 import type { CourseType } from "../../../types/type";
-import { GoPeople } from "react-icons/go";
 
 const keyCourses: CourseType[] = [
   {

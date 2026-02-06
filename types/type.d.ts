@@ -14,8 +14,8 @@ export type FeatureType = {
 
 export type CourseType = {
   id: string;
-  calIcon: ReactNode;
-  userIcon: ReactNode;
+  calIcon: string;
+  userIcon: string;
   thumbnail: string;
   title: string;
   description: string;
