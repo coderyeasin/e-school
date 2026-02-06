@@ -20,14 +20,15 @@ const links = [
 ];
 const Footer = () => {
   return (
-    <section className="w-full h-96 bg-FooterColor">
-      <div className="max-w-330 flex justify-between items-center gap-40 mx-auto py-14">
-        <p className="text-white text-center py-20">
-          Millions of people of all ages and from around <br /> the world are
-          improving their lives with us
+    <section className="w-full bg-FooterColor">
+      <div className="max-w-330 mx-auto py-14 flex flex-col gap-10 md:flex-row md:justify-between md:items-center md:gap-40">
+        <p className="text-white text-center md:text-left py-10 md:py-20">
+          Millions of people of all ages and from around{" "}
+          <br className="hidden md:block" /> the world are improving their lives
+          with us
         </p>
         <div>
-          <div className="flex items-start gap-40">
+          <div className="flex flex-col gap-10 md:flex-row md:items-start md:gap-40">
             {links.map((link) => (
               <div key={link.name}>
                 <h3 className="text-white text-lg font-bold mb-4">

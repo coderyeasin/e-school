@@ -30,11 +30,11 @@ const keyFeatures: FeatureType[] = [
 
 const Features = () => {
   return (
-    <section className="flex gap-10 mx-auto">
+    <section className="flex flex-wrap gap-6 md:gap-10 justify-center mx-auto">
       {keyFeatures?.map((feature: FeatureType) => (
         <div
           key={feature.id}
-          className={` ${feature.id === "2" ? "bg-white border-none shadow-2xl" : "bg-[#F8FFFB]"} flex flex-col justify-center items-center border-2 border-PrimaryColor w-67.5 h-67.5 rounded-xl `}
+          className={` ${feature.id === "2" ? "bg-white border-none shadow-2xl" : "bg-[#F8FFFB]"} flex flex-col justify-center items-center border-2 border-PrimaryColor w-64 h-64 md:w-67.5 md:h-67.5 rounded-xl mb-4`}
         >
           <img src={feature.icon} alt={feature.title} className="w-20 h-20" />
           <h3 className="text-2xl font-medium mt-7">{feature.title}</h3>
