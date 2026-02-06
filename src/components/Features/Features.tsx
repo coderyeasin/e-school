@@ -1,4 +1,3 @@
-import React from "react";
 import type { FeatureType } from "../../../types/type";
 
 const keyFeatures: FeatureType[] = [
