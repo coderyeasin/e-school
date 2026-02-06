@@ -1,11 +1,14 @@
 import type { CourseType } from "../../../types/type";
+import thumbnail1 from "/src/assets/Images/Morder pyschology.png";
+import thumbnail2 from "/src/assets/Images/Morder psyc.png";
+import thumbnail3 from "/src/assets/Images/Morder pychons.png";
 
 const keyCourses: CourseType[] = [
   {
     id: "1",
     calIcon: "/Icon/calendar.png",
     userIcon: "/Icon/people.png",
-    thumbnail: "/src/assets/Images/Morder pyschology.png",
+    thumbnail: thumbnail1,
     title: "Modern Psychology",
     description: "This is a brief description of Course 1.",
     btnText: "Enroll Now",
@@ -14,7 +17,7 @@ const keyCourses: CourseType[] = [
     id: "1",
     calIcon: "/Icon/calendar.png",
     userIcon: "/Icon/people.png",
-    thumbnail: "/src/assets/Images/Morder psyc.png",
+    thumbnail: thumbnail2,
     title: "Modern Psychology",
     description: "This is a brief description of Course 1.",
     btnText: "Enroll Now",
@@ -23,7 +26,7 @@ const keyCourses: CourseType[] = [
     id: "1",
     calIcon: "/Icon/calendar.png",
     userIcon: "/Icon/people.png",
-    thumbnail: "/src/assets/Images/Morder pychons.png",
+    thumbnail: thumbnail3,
     title: "Modern Psychology",
     description: "This is a brief description of Course 1.",
     btnText: "Enroll Now",

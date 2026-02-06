@@ -1,3 +1,5 @@
+import Illustration from "/src/assets/Images/Illustration.png";
+
 const HeroSection = () => {
   return (
     <section className="flex flex-col-reverse gap-8 items-center md:flex-row md:justify-between md:gap-0">
@@ -17,11 +19,7 @@ const HeroSection = () => {
         </button>
       </div>
 
-      <img
-        src="/src/assets/Images/Illustration.png"
-        alt="Hero Image"
-        className="w-60 md:w-8/12"
-      />
+      <img src={Illustration} alt="Hero Image" className="w-60 md:w-8/12" />
     </section>
   );
 };
