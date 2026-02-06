@@ -11,13 +11,13 @@ const Home = () => {
   return (
     <Layout>
       <Container className="bg-BannerBg h-auto">
-        <Section className="max-w-330 h-full mx-auto flex flex-col gap-10">
+        <Section className="max-w-330 h-full mx-auto flex flex-col gap-10 px-10 lg:px-0">
           <Header />
           <HeroSection />
         </Section>
       </Container>
       <Container className="h-auto">
-        <Section className="max-w-330 h-full mx-auto flex flex-col gap-10">
+        <Section className="max-w-330 h-full mx-auto flex flex-col gap-10 px-16 lg:px-0">
           <Features />
           <Courses />
           <Testimonial />

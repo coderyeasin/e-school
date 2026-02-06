@@ -20,7 +20,7 @@ const HeroSection = () => {
       <img
         src="/src/assets/Images/Illustration.png"
         alt="Hero Image"
-        className="w-60 md:w-auto"
+        className="w-60 md:w-8/12"
       />
     </section>
   );

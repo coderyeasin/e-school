@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="flex justify-between items-center relative">
+      <nav className="flex justify-between items-center relative w-full">
         <img src="/Icon/Logo.png" className="w-49.5 h-14.75" alt="Logo" />
         {/* Desktop Nav */}
         <ul className="hidden md:flex items-center gap-7.5 text-base">
