@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# 🚀 Modern Frontend Architecture — Pixel Perfect UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scalable, production-ready frontend built with **React.js + TypeScript + TailwindCSS**, implementing **pixel-perfect Figma design**, reusable components, and a flexible **custom layout system** for consistent UI structure.
 
-Currently, two official plugins are available:
+Engineered for **performance, scalability, maintainability, and real-world production use**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧰 Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+| Technology                    | Purpose                                |
+| ----------------------------- | -------------------------------------- |
+| **TypeScript**                | Strong typing & scalable architecture  |
+| **Custom Types / Interfaces** | Predictable data modeling              |
+| **React.js**                  | Component-driven UI                    |
+| **Tailwind CSS**              | Utility-first styling                  |
+| **Figma**                     | Pixel-perfect design reference         |
+| **Responsive Design**         | Cross-device UI consistency            |
+| **Reusable Components**       | Scalable UI development                |
+| **Custom Layout System**      | Structured & flexible page composition |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎯 Core Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 🎨 Pixel-perfect Figma → Code implementation
+- 📱 Fully responsive (Mobile → 4K)
+- 🧩 Reusable & scalable component architecture
+- 🧱 Custom layout system (Page / Section / Grid)
+- ⚡ Optimized rendering & performance
+- 🧼 Clean, maintainable & readable code
+- 🧠 Strong TypeScript typing & props validation
+- 🎯 Consistent spacing, typography & layout
+- 🌍 Cross-browser compatibility
+- ♿ Accessibility-friendly basics
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧱 Architecture Principles
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Component-Driven Development
+- Custom Layout Abstraction
+- Type-Safe Data Flow
+- Mobile-First Strategy
+- Atomic / Modular Structure
+- Design System Consistency
+- Performance-First Thinking
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧩 Custom Layout System
+
+The project uses a **flexible layout architecture** to maintain consistent UI structure.
